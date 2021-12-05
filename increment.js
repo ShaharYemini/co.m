@@ -12,4 +12,4 @@ function incrementAndShowValue() {
   container.innerHTML = sentence
 
   
-}
+} 
