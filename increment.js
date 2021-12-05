@@ -8,7 +8,7 @@ function incrementAndShowValue() {
   var counter = parseInt(newValue)
   localStorage.setItem("visitcounter", counter);
 
-  var sentence = "You are the " + counter + " to enter this shortened link."
+  var sentence = "You are the " + counter + "th to enter this shortened link."
   container.innerHTML = sentence
 
   

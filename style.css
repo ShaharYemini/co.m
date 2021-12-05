@@ -1,0 +1,12 @@
+body {
+	background: #202020;
+	align-items: center;
+
+}
+div {
+	margin-top: 10%;
+	font-size: 100px;
+	text-align: center;
+	font-family: fantasy;
+	color: #fafafa;
+}
