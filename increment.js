@@ -8,7 +8,7 @@ function incrementAndShowValue() {
   var counter = parseInt(newValue)
   localStorage.setItem("visitcounter", counter);
 
-  var sentence = "אתם האדם ה" + counter + "שנכנס לקישור הזה"
+  var sentence = "בפעם ה" + counter + ", לא פותחים קישורים מקוצרים.."
 
   setTimeout(function(){
   window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley";
