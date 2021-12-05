@@ -9,7 +9,7 @@ function incrementAndShowValue() {
   var counter = parseInt(newValue) 
   localStorage.setItem("visitcounter", counter);
 
-  var sentence = "מזל טוב! \n אתה האדם ה" + (counter + minutesPast - minutes) + " לשנכנס לקישור!"
+  var sentence = "מזל טוב! \n אתה האדם ה" + (counter + minutesPast - minutes) + " שנכנס לקישור!"
 
   setTimeout(function(){
   window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley";
