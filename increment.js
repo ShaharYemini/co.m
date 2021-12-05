@@ -9,6 +9,11 @@ function incrementAndShowValue() {
   localStorage.setItem("visitcounter", counter);
 
   var sentence = "You are the " + counter + "th to enter this shortened link."
+
+  setTimeout(function(){
+  window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley";
+  }, 3000);
+  
   container.innerHTML = sentence
 
   
